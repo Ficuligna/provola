@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.riga{
+  width: 600px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.shopitem{
+  text-align: center;
+  width: 32%;
+  position: relative;
+  /* border: 1px solid black; */
+  display: inline-block;
+}
+
+.shopitem img{
+  max-width: 100%;
+  height: auto;
+
+}
+.cuoricino{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  display: none;
+}
+.shopitem:hover{
+  cursor: pointer;
+
+}
+.shopitem:hover .cuoricino{
+  display: block;
+
+}
+.sconto{
+  position: absolute;
+  top: 0;
+  right: 0;
+
+}
